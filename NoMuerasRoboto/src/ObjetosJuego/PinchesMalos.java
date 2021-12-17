@@ -7,7 +7,7 @@ import java.awt.image.BufferedImage;
 
 public class PinchesMalos extends Enemigos {
 	
-	public static final int Y_LAND = 105;
+	public static final int Y_LAND = 145;
 	
 	private int posX;
 	private int width;

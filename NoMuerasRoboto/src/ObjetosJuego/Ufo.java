@@ -8,13 +8,13 @@ import java.util.List;
 import interfazDelUsuario.Ventana;
 import Utilidades.Recursos;
 
-public class Nubes {
+public class Ufo {
 	private List<FotoNave> listaNave;
 	private BufferedImage nave;
 	
 	private Personaje personaje;
 	
-	public Nubes(int width, Personaje personaje) {
+	public Ufo(int width, Personaje personaje) {
 		this.personaje = personaje;
 		nave = Recursos.getResouceImage("data/nave.png");
 		listaNave = new ArrayList<FotoNave>();

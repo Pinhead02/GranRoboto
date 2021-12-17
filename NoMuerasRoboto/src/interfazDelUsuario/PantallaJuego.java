@@ -9,7 +9,7 @@ import javax.swing.JPanel;
 
 import ObjetosJuego.AdministradorEnemigos;
 import ObjetosJuego.Base;
-import ObjetosJuego.Nubes;
+import ObjetosJuego.Ufo;
 import ObjetosJuego.Personaje;
 import Utilidades.Recursos;
 
@@ -22,7 +22,7 @@ public class PantallaJuego extends JPanel implements Runnable, KeyListener {
 	private Base base;
 	private Personaje personaje;
 	private AdministradorEnemigos administradorEnemigos;
-	private Nubes nubes;
+	private Ufo ufo;
 	private Thread thread;
 
 	private boolean isKeyPressed;
@@ -39,7 +39,7 @@ public class PantallaJuego extends JPanel implements Runnable, KeyListener {
 		barritaE = Recursos.getResouceImage("data/barraEspaciadoraz.png");
 		probaOtraVez = Recursos.getResouceImage("data/ProbaOtraVez_2.png");
 		administradorEnemigos = new AdministradorEnemigos(personaje);
-		nubes = new Nubes(Ventana.SCREEN_WIDTH, personaje);
+		ufo = new Ufo(Ventana.SCREEN_WIDTH, personaje);
 	}
 
 	public void startGame() {
@@ -49,7 +49,7 @@ public class PantallaJuego extends JPanel implements Runnable, KeyListener {
 
 	public void gameUpdate() {
 		if (gameState == GAME_PLAYING_STATE) {
-			nubes.update();
+			ufo.update();
 			base.update();
 			personaje.update();
 			administradorEnemigos.update();
@@ -71,7 +71,7 @@ public class PantallaJuego extends JPanel implements Runnable, KeyListener {
 			break;
 		case GAME_PLAYING_STATE:
 		case GAME_OVER_STATE:
-			nubes.draw(g);
+			ufo.draw(g);
 			base.draw(g);
 			administradorEnemigos.draw(g);
 			personaje.draw(g);

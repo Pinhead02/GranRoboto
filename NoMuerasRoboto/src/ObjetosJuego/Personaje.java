@@ -12,7 +12,7 @@ import Utilidades.Recursos;
 
 public class Personaje {
 
-	public static final int LAND_POSY = 60;
+	public static final int LAND_POSY = 90;
 	public static final float GRAVITY = 0.30f;
 
 	private static final int CORRE = 0;

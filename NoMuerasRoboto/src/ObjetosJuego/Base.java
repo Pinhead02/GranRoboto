@@ -10,7 +10,7 @@ import Utilidades.Recursos;
 
 public class Base {
 	
-	public static final int LAND_POSY = 105;
+	public static final int LAND_POSY = 130;
 	
 	private List<ImageLand> listLand;
 	private BufferedImage fondoV1;
