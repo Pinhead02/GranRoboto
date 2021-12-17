@@ -1,4 +1,4 @@
-package interfazDelUsuario;
+package juegoRoboto;
 import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.event.KeyEvent;
@@ -7,11 +7,7 @@ import java.awt.image.BufferedImage;
 
 import javax.swing.JPanel;
 
-import ObjetosJuego.AdministradorEnemigos;
-import ObjetosJuego.Base;
-import ObjetosJuego.Ufo;
-import ObjetosJuego.Personaje;
-import Utilidades.Recursos;
+
 
 public class PantallaJuego extends JPanel implements Runnable, KeyListener {
 	private static final long serialVersionUID = 1L;

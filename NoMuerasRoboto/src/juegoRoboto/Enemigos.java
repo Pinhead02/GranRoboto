@@ -1,4 +1,4 @@
-package ObjetosJuego;
+package juegoRoboto;
 
 import java.awt.Graphics;
 import java.awt.Rectangle;

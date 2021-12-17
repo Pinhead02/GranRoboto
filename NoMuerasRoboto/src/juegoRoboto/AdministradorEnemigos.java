@@ -1,4 +1,4 @@
-package ObjetosJuego;
+package juegoRoboto;
 
 import java.awt.Graphics;
 import java.awt.image.BufferedImage;
@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-import Utilidades.Recursos;
+
 
 public class AdministradorEnemigos {
 	

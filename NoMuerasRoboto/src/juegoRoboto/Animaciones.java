@@ -1,4 +1,4 @@
-package Utilidades;
+package juegoRoboto;
 import java.awt.image.BufferedImage;
 import java.util.ArrayList;
 import java.util.List;

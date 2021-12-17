@@ -1,4 +1,4 @@
-package interfazDelUsuario;
+package juegoRoboto;
 
 
 import javax.swing.JFrame;

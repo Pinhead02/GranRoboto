@@ -1,4 +1,4 @@
-package ObjetosJuego;
+package juegoRoboto;
 
 import java.applet.Applet;
 import java.applet.AudioClip;
@@ -7,8 +7,7 @@ import java.awt.Rectangle;
 import java.awt.image.BufferedImage;
 import java.net.MalformedURLException;
 import java.net.URL;
-import Utilidades.Animaciones;
-import Utilidades.Recursos;
+;
 
 public class Personaje {
 
