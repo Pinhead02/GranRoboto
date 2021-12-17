@@ -49,7 +49,7 @@ public class Personaje {
 
 		try {
 			jumpSound = Applet.newAudioClip(new URL("file", "", "data/sonidoMario.wav"));
-			deadSound = Applet.newAudioClip(new URL("file", "", "data/explosion.wav"));
+			deadSound = Applet.newAudioClip(new URL("file", "", "data/explosion2.wav"));
 			scoreUpSound = Applet.newAudioClip(new URL("file", "", "data/sonidoPuntitos.wav"));
 		} catch (MalformedURLException e) {
 			e.printStackTrace();
