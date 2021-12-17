@@ -45,7 +45,7 @@ public class AdministradorEnemigos {
 	}
 	
 	private Enemigos createEnemigo() {
-		// if (enemyType = getRandom)
+		
 		int type = rand.nextInt(2);
 		if(type == 0) {
 			return new PinchesMalos(personaje, 800, pincheChico.getWidth() - 8, pincheChico.getHeight() - 8, pincheChico);
